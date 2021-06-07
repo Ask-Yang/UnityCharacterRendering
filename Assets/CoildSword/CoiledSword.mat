@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CoiledSword
+  m_Shader: {fileID: 4800000, guid: d88a216eeae4ded46badce1e95d34920, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CompMask:
+        m_Texture: {fileID: 2800000, guid: 802ea123ac77fe742a3c86eda68c36e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 45c9a506dea391846a1af0ebcb1393da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvSpecMap:
+        m_Texture: {fileID: 8900000, guid: 45c9a506dea391846a1af0ebcb1393da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6d4664f848333ce4680e647a7c14a3c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0fa61f7f570683046ae9e6d7333214fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnvDiffuseIntensity: 0.19
+    - _IBLSpecIntensity: 0.83
+    - _MetalIntensity: 0.12
+    - _NormalIntensity: 8.38
+    - _RoughnessIntensity: 0.3
+    - _SSSTexWeight: 0.069
+    - _SpecAtten: 1
+    - _SpecIntensity: 0
+    m_Colors:
+    - custom_SHAb: {r: -0.18370613, g: 0.62990427, b: -0.23003262, a: 0.6376962}
+    - custom_SHAg: {r: -0.18375656, g: 0.6300485, b: -0.23030114, a: 0.63519853}
+    - custom_SHAr: {r: -0.18378283, g: 0.63020396, b: -0.23041269, a: 0.6343824}
+    - custom_SHBb: {r: -0.21709046, g: -0.2543503, b: -0.18471815, a: 0.16374198}
+    - custom_SHBg: {r: -0.2172918, g: -0.25460774, b: -0.18503779, a: 0.1639478}
+    - custom_SHBr: {r: -0.21739697, g: -0.25470424, b: -0.1851406, a: 0.16402896}
+    - custom_SHC: {r: -0.19010317, g: -0.19001146, b: -0.18973957, a: 1}
